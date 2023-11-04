@@ -428,9 +428,22 @@ Values
 
 #values .row {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   
 }
+
+.values__description {
+  width: 50%;
+}
+
+
+.values__img--wrapper {
+  width: 50%;
+  align-items: center;
+  display: flex;
+}
+
+
 
 
 
