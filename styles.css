@@ -443,11 +443,91 @@ Values
   display: flex;
 }
 
+.values__img {
+  width: 100%;
+  max-width: 640px;
+}
+
+.values__feature--tag {
+  font-weight: 700px;
+  color: #6415ff;
+  letter-spacing: 2px;
+}
+
+.values__header {
+  font-size: 48px;
+  font-weight: 800;
+  color: #243E63;
+  margin-top: 16px;
+}
+
+.values__para {
+  color: #7c8BA1;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 32px 0;
+}
+
+.values__point--wrapp {
+  display: flex;
+}
+
+.values__point {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  height: 0 auto;
+}
+
+
+.values__point--title-wrapp {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.values__point-img--wrapper-dollar {
+  background-color: #9ae6b4;
+}
+
+.values__point-img--wrapper-breifcase {
+
+  background-color: #Feb2b2;
+}
+
+.values__point-img--wrapper {
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.values__point-title {
+  margin-left: 12px;
+  color: #243E63;
+
+}
+
+.values__btn {
+  margin-top: 48px;
+  border-radius: 20px;
+  border: none;
+  padding: 12px 32px;
+  background-color: #6415FF;
+  color: #f7fafc;
+  font-weight: 700;
+}
+
+/*                              M E D I A                             */
 
 
 
 
-/*                               M E D I A                             */
+
 
 /*
 -------------------------------  Media 1024px ----------------------------
