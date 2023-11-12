@@ -641,11 +641,30 @@ Pricing
 
 
 .price__top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px;
   border-bottom: 2px solid #E2E8F0;
+}
+
+.price__mid {
+  flex-direction: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  border-bottom: 2px solid #E2E8F0;
+}
+
+.price__btm {
+  padding: 58px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 
